@@ -1,0 +1,2 @@
+root: C:\Users\vedan\Downloads\EnhanceUI with Effects\nvm
+path: C:\nvm4w\nodejs

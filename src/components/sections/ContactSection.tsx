@@ -89,7 +89,7 @@ export function ContactSection() {
                   }`}>Email</div>
                   <div className={`font-body transition-colors duration-500 ${
                     isDarkMode ? 'text-gray-300' : 'text-[#6B7280]'
-                  }`}>vedansh.patel@example.com</div>
+                  }`}>vedanshpatel1611@gmail.com</div>
                 </div>
               </div>
 
@@ -123,9 +123,9 @@ export function ContactSection() {
               transition={{ delay: 0.9 }}
             >
               {[
-                { icon: Linkedin, href: "#", color: "#0077B5" },
-                { icon: Github, href: "#", color: "#333" },
-                { icon: Mail, href: "#", color: "#EA4335" },
+                { icon: Linkedin, href: "www.linkedin.com/in/vedanshkumargothi", color: "#0077B5" },
+                { icon: Github, href: "https://github.com/vedansh1611", color: "#333" },
+                { icon: Mail, href: "vedanshpatel1611@gmail.com", color: "#EA4335" },
               ].map((social, index) => (
                 <motion.button
                   key={index}

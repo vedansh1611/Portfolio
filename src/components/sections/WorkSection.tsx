@@ -10,12 +10,12 @@ export function WorkSection() {
   
   const projects = [
     {
-      title: "HealthCare Platform Redesign",
+      title: " Intellectsia AI Pvt. Ltd.",
       category: "UI/UX Design",
       description: "A comprehensive redesign of a healthcare platform focusing on improving patient experience and doctor workflows. Increased user engagement by 45% and reduced task completion time by 30%.",
       image: "/src/assets/Desktop - 10.jpg",
-      tags: ["Healthcare", "UI/UX", "Web Design"],
-      year: "2024"
+      tags: ["UI/UX", "Web Design"],
+      year: "Nov 2024- April 2025"
     },
     {
       title: "FinTech Mobile App",

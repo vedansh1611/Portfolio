@@ -1,7 +1,7 @@
 import { motion } from "motion/react";
-import { Linkedin, Github, Mail } from "lucide-react";
+import { Linkedin, Github, Mail } from "lucide-react"; // Updated 'LinkedIn' to 'Linkedin'
 import { useTheme } from "../ThemeProvider";
-import React from "react"
+import React from "react";
 
 export function Footer() {
   const { isDarkMode } = useTheme();
@@ -27,12 +27,15 @@ export function Footer() {
             </p>
             <div className="flex items-center gap-4">
               {[
-                { icon: Linkedin, href: "#" },
-                { icon: Github, href: "#" },
-                { icon: Mail, href: "#" },
+                { icon: Linkedin, href: "www.linkedin.com/in/vedanshkumargothi" },
+                { icon: Github, href: "https://github.com/vedansh1611" }, // Updated 'Github' to 'Github'
+                { icon: Mail, href: "vedanshpatel1611@gmail.com" },
               ].map((social, index) => (
-                <motion.button
+                <motion.a
                   key={index}
+                  href={social.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className={`p-2 rounded-lg transition-colors duration-300 ${
                     isDarkMode 
                       ? 'bg-white/15 hover:bg-white/25' 
@@ -40,10 +43,9 @@ export function Footer() {
                   }`}
                   whileHover={{ scale: 1.1, y: -2 }}
                   whileTap={{ scale: 0.9 }}
-                  onClick={() => alert("Social link clicked!")}
                 >
                   <social.icon className="w-5 h-5" />
-                </motion.button>
+                </motion.a>
               ))}
             </div>
           </div>
@@ -81,13 +83,13 @@ export function Footer() {
             <div className="space-y-3">
               <p className={`font-body transition-colors duration-500 ${
                 isDarkMode ? 'text-gray-300' : 'text-gray-400'
-              }`}>vedansh.patel@example.com</p>
+              }`}>vedanshpatel1611@gmail.com</p>
               <p className={`font-body transition-colors duration-500 ${
                 isDarkMode ? 'text-gray-300' : 'text-gray-400'
-              }`}>+91 98765 43210</p>
+              }`}>+91 9265746728</p>
               <p className={`font-body transition-colors duration-500 ${
                 isDarkMode ? 'text-gray-300' : 'text-gray-400'
-              }`}>Gujarat, India</p>
+              }`}>Mumbai, India</p>
             </div>
           </div>
         </div>

@@ -4,6 +4,11 @@
   import path from 'path';
 
   export default defineConfig({
+    server: {
+      host: 'localhost',
+      port: 3000,
+      open: true,
+    },
     plugins: [react()],
     resolve: {
       extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
@@ -62,9 +67,5 @@
     build: {
       target: 'esnext',
       outDir: 'build',
-    },
-    server: {
-      port: 3000,
-      open: true,
     },
   });
