@@ -37,7 +37,7 @@ export function WorkSection() {
       title: "E-Learning Platform",
       category: "Web Design",
       description: "Designed and developed a modern e-learning platform with interactive course materials, progress tracking, and collaborative features for students and educators.",
-      image: "./assets/Desktop - 9.jpg" , 
+      image: "/src/assets/Desktop - 10.jpg", 
       tags: ["Education", "Web Platform", "UX"],
       year: "2024"
     },
@@ -146,7 +146,7 @@ export function WorkSection() {
 
         {/* Projects Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <AnimatePresence mode="wait">
+          <AnimatePresence>
             {filteredProjects.map((project, index) => (
               <motion.div
                 key={project.title}
