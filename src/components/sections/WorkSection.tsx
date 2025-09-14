@@ -13,7 +13,7 @@ export function WorkSection() {
       title: "HealthCare Platform Redesign",
       category: "UI/UX Design",
       description: "A comprehensive redesign of a healthcare platform focusing on improving patient experience and doctor workflows. Increased user engagement by 45% and reduced task completion time by 30%.",
-      image: "https://images.unsplash.com/photo-1629494893504-d41e26a02631?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx1aSUyMHV4JTIwZGVzaWduJTIwbW9ja3VwfGVufDF8fHx8MTc1NzgyNTcwNXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: "/src/assets/Desktop - 10.jpg",
       tags: ["Healthcare", "UI/UX", "Web Design"],
       year: "2024"
     },
@@ -21,7 +21,7 @@ export function WorkSection() {
       title: "FinTech Mobile App",
       category: "Mobile Design",
       description: "Designed a intuitive mobile banking app with focus on security and ease of use. Featured advanced biometric authentication and personalized financial insights.",
-      image: "https://images.unsplash.com/photo-1597740985671-2a8a3b80502e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2JpbGUlMjBhcHAlMjBkZXNpZ258ZW58MXx8fHwxNzU3NzU1NjgxfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: "/src/assets/Desktop - 10.jpg",
       tags: ["FinTech", "Mobile", "iOS/Android"],
       year: "2024"
     },
@@ -29,7 +29,7 @@ export function WorkSection() {
       title: "Brand Identity & Website",
       category: "Graphic Design",
       description: "Complete brand identity and website design for a creative agency. Developed logo, color palette, typography system, and responsive website that increased client inquiries by 60%.",
-      image: "https://images.unsplash.com/photo-1683818051102-dd1199d163b9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxncmFwaGljJTIwZGVzaWduJTIwcG9ydGZvbGlvfGVufDF8fHx8MTc1NzcyNDM4N3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: "/src/assets/Desktop - 10.jpg",
       tags: ["Branding", "Web Design", "Identity"],
       year: "2024"
     },
@@ -45,7 +45,7 @@ export function WorkSection() {
       title: "Logo Design Collection",
       category: "Logo Design",
       description: "A collection of distinctive logos created for various clients across different industries, focusing on memorable and scalable brand marks.",
-      image: "https://shmector.com/_ph/13/188552034.png",
+      image:'/src/assets/Desktop - 10.jpg',
       tags: ["Logo", "Branding", "Identity"],
       year: "2024"
     },
@@ -53,7 +53,7 @@ export function WorkSection() {
       title: "Design System Library",
       category: "Design Systems",
       description: "Comprehensive design system with 100+ components, design tokens, and documentation. Used across multiple products to ensure consistency and efficiency.",
-      image: "https://images.unsplash.com/photo-1718220216044-006f43e3a9b1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBvZmZpY2UlMjB3b3Jrc3BhY2UlMjBkZXNpZ258ZW58MXx8fHwxNzU3NzM5NjczfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image:'/src/assets/Desktop - 10.jpg',
       tags: ["Design System", "Components", "Documentation"],
       year: "2024"
     }
