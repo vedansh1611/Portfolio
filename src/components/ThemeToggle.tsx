@@ -1,6 +1,7 @@
 import { motion } from "motion/react";
 import { Sun, Moon } from "lucide-react";
 import { useTheme } from "./ThemeProvider";
+import React from "react"
 
 export function ThemeToggle() {
   const { isDarkMode, toggleTheme } = useTheme();

@@ -1,14 +1,15 @@
+import React from 'react'
 import svgPaths from "./svg-v43aerlv1n";
-import imgImage1 from "figma:asset/2ab40fe22adb98212c1f94443c16b227e48b01d4.png";
-import imgImage2 from "figma:asset/7c9bcb4247f5fbebf195e4737c63f7d8ebbc211c.png";
-import imgImage3 from "figma:asset/c3ebbfb5f185e0da8f99b91ca46637a66164495d.png";
-import imgImage4 from "figma:asset/f29d3a06ede456e7ebed8f3c6ace5d2c313f973c.png";
-import imgImage5 from "figma:asset/93630822728753b4fb236491829755a1ea2833b7.png";
-import imgImage6 from "figma:asset/8e54c245d1095c909056bce09964e801a0963b71.png";
-import imgImage7 from "figma:asset/63454be459df82b3322b18ef5b30674df3c72743.png";
-import imgImage8 from "figma:asset/3a9a15d8d5680a870690be196ea716bd10c9609d.png";
-import imgImage9 from "figma:asset/65faeed3865d634e13d0cf235dad6d61ee21b210.png";
-import imgImage10 from "figma:asset/c646cd8c9e05cf0339e081b33cfa12c1b8e20492.png";
+const imgImage1 = "/src/assets/2ab40fe22adb98212c1f94443c16b227e48b01d4.png";
+const imgImage2 = "/src/assets/7c9bcb4247f5fbebf195e4737c63f7d8ebbc211c.png";
+const imgImage3 = "/src/assets/c3ebbfb5f185e0da8f99b91ca46637a66164495d.png";
+const imgImage4 = "/src/assets/f29d3a06ede456e7ebed8f3c6ace5d2c313f973c.png";
+const imgImage5 = "/src/assets/93630822728753b4fb236491829755a1ea2833b7.png";
+const imgImage6 = "/src/assets/8e54c245d1095c909056bce09964e801a0963b71.png";
+const imgImage7 = "/src/assets/63454be459df82b3322b18ef5b30674df3c72743.png";
+const imgImage8 = "/src/assets/3a9a15d8d5680a870690be196ea716bd10c9609d.png";
+const imgImage9 = "/src/assets/65faeed3865d634e13d0cf235dad6d61ee21b210.png";
+const imgImage10 = "/src/assets/c646cd8c9e05cf0339e081b33cfa12c1b8e20492.png";
 
 function LoaderDesktop() {
   return (

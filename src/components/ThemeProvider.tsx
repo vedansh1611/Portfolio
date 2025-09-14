@@ -7,7 +7,7 @@ interface ThemeContextType {
 
 const ThemeContext = createContext<ThemeContextType | undefined>(undefined);
 
-export function ThemeProvider({ children }: { children: React.ReactNode }) {
+export const ThemeProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const [isDarkMode, setIsDarkMode] = useState(false);
 
   // Initialize theme from localStorage or system preference
@@ -43,7 +43,7 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
       {children}
     </ThemeContext.Provider>
   );
-}
+};
 
 export function useTheme() {
   const context = useContext(ThemeContext);
