@@ -1,5 +1,7 @@
 import { motion } from "motion/react";
-import { Linkedin, Github, Mail } from "lucide-react"; // Updated 'LinkedIn' to 'Linkedin'
+import { Mail } from "lucide-react"; // Updated 'LinkedIn' to 'Linkedin'
+import { GithubIcon as Github } from "lucide-react";
+import { LinkedinIcon as Linkedin } from "lucide-react";
 import { useTheme } from "../ThemeProvider";
 import React from "react";
 

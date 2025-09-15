@@ -260,7 +260,7 @@ export function CustomLoader({ isLoading, isDarkMode = false }: CustomLoaderProp
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.8 }}
-          className={`absolute -bottom-16 left-1/2 transform -translate-x-1/2 text-center ${
+          className={`absolute -bottom-20 left-1/2 transform -translate-x-1/2 text-center ${
             isDarkMode ? 'text-white' : 'text-[#222222]'
           }`}
         >
@@ -276,7 +276,7 @@ export function CustomLoader({ isLoading, isDarkMode = false }: CustomLoaderProp
             }}
           >
             <span className={isDarkMode ? 'text-[#8B5CF6]' : 'text-[#8B5CF6]'}>
-              Crafting Digital Experiences
+              Ved Patel's Portfolio
             </span>
           </motion.div>
           

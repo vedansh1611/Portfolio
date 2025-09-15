@@ -254,7 +254,7 @@ export function MusicPlayer() {
         {/* Main Button */}
         <motion.button
           onClick={togglePlay}
-          className="relative w-16 h-16 rounded-full bg-gradient-to-r from-purple-500 via-pink-500 to-indigo-500 text-white shadow-2xl flex items-center justify-center cursor-pointer overflow-hidden"
+          className="relative w-16 h-16 rounded-full bg-gradient-to-r from-[#8B5CF6] to-[#10B981] text-white shadow-2xl flex items-center justify-center cursor-pointer overflow-hidden"
           whileHover={{ 
             scale: 1.1,
             boxShadow: "0 0 40px rgba(139, 92, 246, 0.6)"
